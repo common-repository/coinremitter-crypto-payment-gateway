@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500" height="500" viewBox="0 0 200 200">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f5a51d;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        filter: url(#filter);
+      }
+    </style>
+    <filter id="filter" x="93" y="58" width="82" height="92" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" dx="-3.346" dy="3.716" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="2.236"/>
+      <feFlood result="flood" flood-opacity="0.25"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+      <feImage preserveAspectRatio="none" x="100.188" y="58" width="72.812" height="83" result="image" xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iNzIuODEyIiBoZWlnaHQ9IjgzIiB2aWV3Qm94PSIwIDAgNzIuODEyIDgzIj4KICA8ZGVmcz4KICAgIDxzdHlsZT4KICAgICAgLmNscy0xIHsKICAgICAgICBvcGFjaXR5OiAwLjU7CiAgICAgICAgZmlsbDogdXJsKCNsaW5lYXItZ3JhZGllbnQpOwogICAgICB9CiAgICA8L3N0eWxlPgogICAgPGxpbmVhckdyYWRpZW50IGlkPSJsaW5lYXItZ3JhZGllbnQiIHgxPSI3LjM0NyIgeTE9IjgzIiB4Mj0iNjUuNDY1IiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMC4zMzUiIHN0b3AtY29sb3I9IiNlYzI2MjYiLz4KICAgICAgPHN0b3Agb2Zmc2V0PSIwLjY2NSIgc3RvcC1jb2xvcj0iI2Y1YTUxZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3QgY2xhc3M9ImNscy0xIiB3aWR0aD0iNzIuODEyIiBoZWlnaHQ9IjgzIi8+Cjwvc3ZnPgo="/>
+      <feComposite result="composite-2" operator="in" in2="SourceGraphic"/>
+      <feBlend result="blend-2" mode="screen" in2="blend"/>
+    </filter>
+  </defs>
+  <path id="Color_Fill_3" data-name="Color Fill 3" class="cls-1" d="M153,130V70L100,40,48,70v60l52,30Zm20-72v83l-72,43L28,142V59l72-42Z"/>
+  <path id="Polygon_2_copy_2" data-name="Polygon 2 copy 2" class="cls-1" d="M130.462,117.207l-30.1,17.525-30.27-17.238L69.924,82.731l30.1-17.524L130.3,82.445Z"/>
+  <path id="Color_Fill_2" data-name="Color Fill 2" class="cls-2" d="M173,58v83L100.193,99.969Z"/>
+</svg>
